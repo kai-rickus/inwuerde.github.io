@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
+<html lang="{{ site.locale }}">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,11 +25,10 @@
           <h1>{{ page.title }}</h1>
         </header>
         <section id="main_content">{{ content }}</section>
-
         <footer>
           <a href="/">Home</a> | <a href="/datenschutz">Datenschutz</a> |
           <a href="/impressum">Impressum</a> |
-          <span>&copy; {{ site.year }}</span>
+          <span>{{- site.year -}}</span>
         </footer>
       </div>
     </div>
