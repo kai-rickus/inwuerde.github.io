@@ -4,7 +4,8 @@
   "description": "the inwuerde.de blogsite",
   "main": ".eleventy.js",
   "scripts": {
-    "dev": "npx eleventy --serve"
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
