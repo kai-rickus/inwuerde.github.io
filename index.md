@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: layouts/default
 title: In Würde zu sich stehen
 ---
 ![logo](/assets/images/logo-iws.png)
